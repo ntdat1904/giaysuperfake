@@ -1,0 +1,249 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<title>Newspaper</title>
+</head>
+<body>
+<!--Top-->
+<div class="container-fluid" id="header">
+    		<div class="container">
+				<div class="row" id="title">
+					<div class="col-sm-8 loichao"></div>
+                    <div class="col-sm-4 text-login">
+						<ul class="list-inline" >
+						  <li><a class="login" href="">Log in</a><small style="color: #656262"> or </small><a class="login" href="">Create an account</a></li>
+						</ul>
+					</div>
+					<div style="clear:both"></div>
+				</div>	
+			</div>
+		</div>
+    <div style="clear:both"></div>
+    <!--Banner-->
+    <div style="clear:both"></div>
+    <!--Menu Tổng -->
+    <div class="container-fluid" id="menu">
+		<nav class="navbar navbar-expand-xl navbar-light bg-faded">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+			</button>
+
+		<!-- Brand -->
+<a class="navbar-brand" href="Newspaper.html"><img src="images/logo.PNG"/></a>
+		<!-- Links -->
+<div class="collapse navbar-collapse" id="nav-content">   
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link" href="thoisu.html">Trang Chủ</a>
+				</li>
+ 			   	<li class="nav-item">
+					<a class="nav-link" href="gocnhin.html">Tin Tức</a>
+				</li>
+                <li class="nav-item">
+					<a class="nav-link" href="main.php">Sản Phẩm</a>
+				</li>
+                <li class="nav-item">
+        			<a class="nav-link" href="kinhdoanh.html">Danh Mục</a>
+     			</li>                           
+ 			</ul>
+          	<!-- Search -->
+			<form class="form-inline" role="search">
+				<input type="text" class="form-control">
+				<button type="submit" class="btn btn-secondary">Search</button>
+			</form>
+			</div>
+		</nav>
+   </div>
+   <div style="clear:both"></div>
+   	<!--Side-->
+    <div>
+        <div class="featured container" >
+			<div class="row">
+				<div class="col-sm-12">
+				<!-- Carousel -->
+					<div id="demo" class="carousel slide" data-ride="carousel">
+					<!-- Indicators -->
+						<ul class="carousel-indicators">
+							<li data-target="#demo" data-slide-to="0" class="active"></li>
+							<li data-target="#demo" data-slide-to="1"></li>
+						
+						</ul>
+					<!-- Wrapper for slides -->
+					
+ 		 				<div class="carousel-inner">
+  		 	 				<div class="carousel-item active">
+  	   			 				<img src="images/sebastian-pociecha-373358.jpg" alt="Los Angeles">
+                        			<div class="carousel-caption d-none d-md-block">
+   					 					<h3 style="color:#09F">Iphone X chưa về Việt Nam</h3>
+    									<p style="color:#09F">iPhone X sắp bán ở Campuchia và 13 thị trường</p>
+ 						 			</div>
+  	  						</div>
+  	 		 				<div class="carousel-item">
+      							<img src="images/vicky-eden-saputra-356258.jpg" alt="Chicago">
+                            		<div class="carousel-caption d-none d-md-block">
+   					 					<h3 style="color:#09F">Jack Ma - nguồn cảm hứng bất tận</h3>
+    									<p style="color:#09F">Jack Ma - doanh nhân thành công hàng đầu Trung Quốc</p>
+    								</div>
+  							</div>
+  							<div class="carousel-item">
+   							  <img src="images/max-bender-225917.jpg" alt="Chicago">
+                            		<div class="carousel-caption d-none d-md-block">
+   					 					<h3 style="color:#09F">Jack Ma - nguồn cảm hứng bất tận</h3>
+    									<p style="color:#09F">Jack Ma - doanh nhân thành công hàng đầu Trung Quốc</p>
+    								</div>
+  							</div>
+					<!-- Controls -->
+ 				    <a class="carousel-control-prev" href="#demo" role="button" data-slide="prev">
+   								 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+   								<span class="sr-only">Previous</span></a>
+  					<a class="carousel-control-next" href="#demo" role="button" data-slide="next">
+    						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+   							 <span class="sr-only">Next</span></a>						
+                    	</div>
+                     </div>
+                   </div>
+			</div>
+   		</div>  
+    </div>     
+    <div style="clear:both"></div>
+    <!--Content-->
+		<div class="row container box text-left left">
+  			<div class="col-md-12">
+				<div class="hang"><p class="font-weight-bold"><strong>NIKE</strong></p></div>
+				<div class="row"  >
+				  <div class="col-xs-6 col-md-3">
+					<a href="#" class="thumbnail">
+					  <img src="images/yamon-figurs-26046.jpg" with="171px" height="180px" alt="feature-collection-image" >
+					</a>
+					<p class="name">NAME</p>
+					<p class="price">PRICE</p>
+				  </div>
+				   <div class="col-xs-6 col-md-3">
+					<a href="#" class="thumbnail">
+					  <img src="images/julian-friedle-274002.jpg" with="171px" height="180px" alt="feature-collection-image" >
+					</a>
+						<p class="name">NAME</p>
+						<p class="price">PRICE</p>
+				  </div>
+				  <div class="col-xs-6 col-md-3">
+					<a href="#" class="thumbnail">
+					  <img src="images/daniel-chen-217770.jpg" with="171px" height="180px" alt="feature-collection-image" >
+					</a>
+						<p class="name">NAME</p>
+						<p class="price">PRICE</p>
+				  </div>
+				  <div class="col-xs-6 col-md-3">
+					<a href="#" class="thumbnail">
+					  <img src="../../../images/goh-rhy-yan-309233.jpg" with="171px" height="180px" alt="feature-collection-image" >
+					</a>
+						<p class="name">NAME</p>
+						<p class="price">PRICE</p>
+				  </div>
+				
+			</div>
+			</div>
+		</div>
+	 <div style="clear:both"></div>
+    <!--Content-->
+
+     <div>
+		<div class="row container box text-left left">
+  			<div class="col-md-12">
+				<div class="hang"><p class="font-weight-bold"><strong>ADiDAS</strong></p></div>
+				<div class="row"  >
+				  <div class="col-xs-6 col-md-3">
+					<a href="#" class="thumbnail">
+					  <img src="images/max-bender-225917.jpg" with="171px" height="180px" alt="feature-collection-image" >
+					</a>
+					<p class="name">NAME</p>
+					<p class="price">PRICE</p>
+				  </div>
+				   <div class="col-xs-6 col-md-3">
+					<a href="#" class="thumbnail">
+					  <img src="images/sebastian-pociecha-373358.jpg" with="171px" height="180px" alt="feature-collection-image" >
+					</a>
+						<p class="name">NAME</p>
+						<p class="price">PRICE</p>
+				  </div>
+				  <div class="col-xs-6 col-md-3">
+					<a href="#" class="thumbnail">
+					  <img src="images/hunter-johnson-219349.jpg" with="171px" height="180px" alt="feature-collection-image" >
+					</a>
+						<p class="name">NAME</p>
+						<p class="price">PRICE</p>
+				  </div>
+				  <div class="col-xs-6 col-md-3">
+					<a href="#" class="thumbnail">
+					  <img src="images/camila-damasio-91788.jpg" with="171px" height="180px" alt="feature-collection-image" >
+					</a>
+						<p class="name">NAME</p>
+						<p class="price">PRICE</p>
+				  </div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div style="clear:both"></div>
+   <div>
+		<div class="row container box text-left left">
+  			<div class="col-md-12">
+				<div class="hang"><p class="font-weight-bold"><strong>NEWS</strong></p></div>
+				<div class="row"  >
+				  <div class="col-xs-6 col-md-3">
+				  <p class="name">TITLES</p>
+				   <p class="date">DATE</p>
+					<a href="#" class="thumbnail">
+					  <img src="images/max-bender-225917.jpg" with="171px" height="180px" alt="feature-collection-image" >
+					</a>
+					<p class="content">conten</p>
+				  </div>
+				   <div class="col-xs-6 col-md-3">
+				   <p class="name">TITLES</p>
+				    <p class="date">DATE</p>
+					<a href="#" class="thumbnail">
+					  <img src="	images/sebastian-pociecha-373358.jpg" with="171px" height="180px" alt="feature-collection-image" >
+					</a>
+					<p class="content">conten</p>
+				  </div>
+				  <div class="col-xs-6 col-md-3">
+				  <p class="name">TITLES</p>
+				   <p class="date">DATE</p>
+					<a href="#" class="thumbnail">
+					  <img src="images/hunter-johnson-219349.jpg" with="171px" height="180px" alt="feature-collection-image" >
+					</a>
+					<p class="content">conten</p>
+				  </div>
+				  <div class="col-xs-6 col-md-3">
+				  <p class="name">TITLES</p>
+				   <p class="date">DATE</p>
+					<a href="#" class="thumbnail">
+					  <img src="images/camila-damasio-91788.jpg" with="171px" height="180px" alt="feature-collection-image" >
+					</a>
+					<p class="content">conten</p>
+				  </div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div style="clear:both"></div>
+   
+    <!--footer-->
+    <div>
+    <div style="border: solid 4px #04F1D0"></div>
+    	<div class="container-fluid text-center box" style="background-color:#3B3B3B; color: #868484">
+			<strong style="color: black">BIG</strong><strong style="color: aquamarine">BAG</strong>: Giày SUPERFake tốt nhất<br><strong style="color: black">Xem thêm :</strong>
+             giaysuperfake.tk<br />
+			<strong style="color: black">Hotline:</strong> 012xxxxxxxx – 098xxxxxx&nbsp;&nbsp;&nbsp;<strong style="color: black">Adress:</strong>123 đường abc, phường 8 , quận 1.
+        </div>    
+    </div>
+    	
+        <div style="clear:both"></div>
+</body>
+</html>

@@ -1,0 +1,139 @@
+	#top {background: #fff;padding: 10px 0 0; color: #000;border-bottom: 1px solid #ddd;}
+.navbar-nav{margin:0 auto;}
+.carousel-inner {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+.carousel-item img{max-width:100%;}
+.quangcao1 img{max-width:100%;padding:5px;}
+.canhgiua{margin:20px auto;}
+.left{margin:20px auto;}
+.tintuc{text-align:left;padding:0 auto;}
+.loichao{padding:5px;
+}
+.canhgiuahinh{display: block; margin-left: auto; margin-right: auto;text-align:center;}
+#header
+{
+	height: 37px;
+	background-color: #2C2C2C;
+}
+#title{
+	padding: 7px 0;
+}
+.login{
+	padding: 0 7px;
+	color: aliceblue;
+}
+#menu{
+	padding: 7px 250px;
+}
+#slide{
+	padding: 0 250px;
+}
+.nav-link{
+	font-weight: bold;
+}
+.hang{
+	text-align: left;
+	border-bottom: solid 7px #F0F0F0;
+	font-size: 25px;
+}
+
+.name{
+	font-size: 12px;
+	font-weight: bold;
+	padding: 0px 10px 10px 10px;
+}
+.price{
+	font-size: 16px;
+	font-weight: bold;
+	color: #C5C5C5;
+}
+.price-details{
+	font-size: 20px;
+	font-weight: bold;
+	color: #C5C5C5;
+}
+.date{
+	font-size: 10px;
+	font-style:italic;
+	color: #666761;
+}
+.nav-item{
+	padding: 0px 10px;
+}
+.product{
+	background-color:#F0F0F0;
+	height: 70px;
+	border-bottom: solid 2px #4BF0D4;	
+}
+.products{
+	color: #686868;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 24px;
+	padding-top: 14px;
+}
+.mid{
+	padding: 75px 0px;
+}
+.bread{
+	color: #686868;
+	padding-top: 28px;
+
+}
+.filtered{
+	border-left: solid #DBDBDB;
+	border-right: solid #DBDBDB;
+	padding: 4px 20px;;
+	font-size: 12px;
+	font-family: Arial;
+	font-weight: bold;
+}
+.filtereds{
+	padding-bottom: 50px;
+	
+}
+.previous{
+	margin: 0px 5px 0px 325px;
+	width: 90px;
+	padding-left: 14px;
+	text-decoration: none;
+	color: #868484;
+}
+.next{
+	margin: 0px 300px 0px 5px;
+	width: 90px;
+	padding-left: 14px;
+	text-decoration: none;
+	color: #868484;
+}
+#name{
+	border-radius: 5px; width: 100px; height: 40px;
+	border: solid  1px #868484;
+	color: #868484;
+	font-weight: bold;
+}
+#number{
+	border-radius: 5px; width: 50px; height: 40px;
+	border: solid  1px #868484;
+	color: #868484;
+	font-weight: bold;
+	margin-left: 20px;
+	margin: 10px 0px 10px 20px;
+}
+#btn-details{
+	background-color: #47BAC1;
+	border-radius: 5px; width: 174px; height: 60px;
+	border: solid #47BAC1;
+	color: aliceblue;
+}
+.detail{
+	padding: 0px 10px 10px 10px;}
+.detail-index{
+	padding-right: 2px;;
+}
+.abc{
+	list-style: none;
+}
